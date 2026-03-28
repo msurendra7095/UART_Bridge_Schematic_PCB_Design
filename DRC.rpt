@@ -1,0 +1,202 @@
+** Drc report for ESP32_DEV_MOD.kicad_pcb **
+** Created on 2026-02-28T21:32:24+0530 **
+
+** Found 40 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0950 mm)
+    Rule: netclass 'Default'; error
+    @(137.5000 mm, 49.5000 mm): Via [Net-(U2-D-)] on F.Cu - B.Cu
+    @(136.8000 mm, 49.5000 mm): Track [Net-(U2-D+)] on F.Cu, length 0.9899 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(137.5000 mm, 49.5000 mm): Via [Net-(U2-D-)] on F.Cu - B.Cu
+    @(137.5000 mm, 50.2000 mm): Via [Net-(U2-D+)] on F.Cu - B.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.8200 mm, 47.5000 mm): Pad 1 [/VBUS] of R6 on F.Cu
+    @(159.1800 mm, 47.5000 mm): Pad 2 [Net-(D5-A)] of R6 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.8900 mm, 53.5000 mm): Pad 1 [/TX] of R3 on F.Cu
+    @(159.2500 mm, 53.5000 mm): Pad 2 [Net-(D5-K)] of R3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(148.0000 mm, 49.9750 mm): Pad 1 [/VBUS] of C2 on F.Cu
+    @(148.0000 mm, 49.3350 mm): Pad 2 [GND] of C2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.1100 mm, 45.7500 mm): Pad 1 [Net-(D5-K)] of D5 on F.Cu
+    @(159.7500 mm, 45.7500 mm): Pad 2 [Net-(D5-A)] of D5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(145.0000 mm, 49.9750 mm): Pad 1 [Net-(J1-CC2)] of R2 on F.Cu
+    @(145.0000 mm, 49.3350 mm): Pad 2 [GND] of R2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(147.0000 mm, 49.9750 mm): Pad 1 [/VBUS] of C1 on F.Cu
+    @(147.0000 mm, 49.3350 mm): Pad 2 [GND] of C1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.1800 mm, 49.5000 mm): Pad 1 [Net-(D4-K)] of D4 on F.Cu
+    @(159.8200 mm, 49.5000 mm): Pad 2 [Net-(D4-A)] of D4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(144.0000 mm, 49.9750 mm): Pad 1 [Net-(J1-CC1)] of R1 on F.Cu
+    @(144.0000 mm, 49.3350 mm): Pad 2 [GND] of R1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(149.0000 mm, 50.6800 mm): Pad 1 [GND] of C3 on F.Cu
+    @(149.0000 mm, 51.3200 mm): Pad 2 [Net-(U2-VDD)] of C3 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(152.1800 mm, 54.7500 mm): Pad 1 [/VBUS] of R5 on F.Cu
+    @(152.8200 mm, 54.7500 mm): Pad 2 [Net-(U2-~{RST})] of R5 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.8200 mm, 55.5000 mm): Pad 1 [/RX] of R4 on F.Cu
+    @(159.1800 mm, 55.5000 mm): Pad 2 [Net-(D4-K)] of R4 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(159.8200 mm, 51.5000 mm): Pad 1 [/VBUS] of R7 on F.Cu
+    @(159.1800 mm, 51.5000 mm): Pad 2 [Net-(D4-A)] of R7 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1800 mm)
+    Rule: netclass 'Default'; error
+    @(152.2500 mm, 46.8200 mm): Pad 1 [Net-(U2-~{DTR})] of C4 on F.Cu
+    @(152.2500 mm, 46.1800 mm): Pad 2 [/RST] of C4 on F.Cu
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(129.0000 mm, 56.0000 mm): Arc on Edge.Cuts
+    @(129.0000 mm, 57.0000 mm): Rectangle on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(129.0000 mm, 57.0000 mm): Rectangle on Edge.Cuts
+    @(129.0000 mm, 56.0000 mm): Arc on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(129.0000 mm, 44.0000 mm): Arc on Edge.Cuts
+    @(128.0000 mm, 44.0000 mm): Rectangle on Edge.Cuts
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(149.0000 mm, 50.5000 mm): Track [GND] on B.Cu, length 0.2500 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(140.0000 mm, 52.0000 mm): Track [Net-(U2-D+)] on B.Cu, length 0.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(159.0000 mm, 53.2500 mm): Track [Net-(D5-K)] on B.Cu, length 0.3536 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(166.3900 mm, 46.1900 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(166.3900 mm, 48.7300 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(166.3900 mm, 51.2700 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(166.3900 mm, 53.8100 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(166.3900 mm, 56.4600 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(167.0000 mm, 43.0000 mm): Rectangle on Edge.Cuts
+    @(169.1500 mm, 43.5400 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(128.0000 mm, 44.0000 mm): Rectangle on Edge.Cuts
+    @(128.0000 mm, 45.0500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(128.0000 mm, 44.0000 mm): Rectangle on Edge.Cuts
+    @(129.9000 mm, 45.0500 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(128.0000 mm, 44.0000 mm): Rectangle on Edge.Cuts
+    @(129.9000 mm, 54.4500 mm): Segment of J1 on F.Silkscreen
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(143.0000 mm, 53.2900 mm): Reference field of D3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.0000 mm, 47.0000 mm): Reference field of D6
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(145.0000 mm, 48.0000 mm): Reference field of R2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(141.0000 mm, 46.0000 mm): Reference field of F1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(141.0000 mm, 53.3400 mm): Reference field of D2
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(144.0000 mm, 48.0000 mm): Reference field of R1
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(150.0000 mm, 51.0000 mm): Reference field of C3
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(151.0000 mm, 46.5000 mm): Reference field of C4
+[text_height]: Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.5000 mm)
+    Rule: board setup constraints silk text height; warning
+    @(139.0000 mm, 53.3400 mm): Reference field of D1
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(147.0000 mm, 47.6550 mm): Reference field of C1
+    @(148.0000 mm, 47.6550 mm): Reference field of C2
+
+** Found 11 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.4300 mm, 52.2000 mm): Pad 7 [/VBUS] of U2 on F.Cu
+    @(152.3800 mm, 53.1500 mm): Pad 8 [/VBUS] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.4300 mm, 52.2000 mm): Pad 7 [/VBUS] of U2 on F.Cu
+    @(148.0000 mm, 50.0000 mm): Segment [/VBUS] on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.1800 mm, 54.7500 mm): Track [/VBUS] on F.Cu, length 0.6800 mm
+    @(152.3800 mm, 53.1500 mm): Pad 8 [/VBUS] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0000 mm, 54.0000 mm): Segment [GND] on F.Cu
+    @(145.0000 mm, 49.3350 mm): Track [GND] on F.Cu, length 1.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(149.0000 mm, 50.5000 mm): Track [GND] on B.Cu, length 0.2500 mm
+    @(149.0000 mm, 50.6800 mm): Pad 1 [GND] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.5000 mm, 50.5000 mm): Track [Net-(U2-D+)] on B.Cu, length 2.1213 mm
+    @(151.4300 mm, 50.7000 mm): Pad 4 [Net-(U2-D+)] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.0000 mm, 52.0000 mm): Track [Net-(U2-D+)] on B.Cu, length 0.5000 mm
+    @(140.0000 mm, 52.6800 mm): Pad 2 [Net-(U2-D+)] of D1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.2500 mm, 45.7500 mm): Track [Net-(D5-K)] on B.Cu, length 0.3536 mm
+    @(159.1100 mm, 45.7500 mm): Pad 1 [Net-(D5-K)] of D5 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.0000 mm, 53.2500 mm): Track [Net-(D5-K)] on B.Cu, length 0.3536 mm
+    @(159.2500 mm, 53.5000 mm): Pad 2 [Net-(D5-K)] of R3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.9450 mm, 48.5000 mm): Pad A5 [Net-(J1-CC1)] of J1 on F.Cu
+    @(144.0000 mm, 49.9750 mm): Pad 1 [Net-(J1-CC1)] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.9450 mm, 51.5000 mm): Pad B5 [Net-(J1-CC2)] of J1 on F.Cu
+    @(145.0000 mm, 49.9750 mm): Pad 1 [Net-(J1-CC2)] of R2 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
